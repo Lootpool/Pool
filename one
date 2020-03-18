@@ -1,0 +1,10 @@
+Point definitions
+=================
+
+## Coordinates
+
+```latex
+\tkzDefPoints{0/0/O, 1/0/A, 0/1/B}
+\tkzDefPoint(35:2){C}
+\tkzDefPoint[label=-60:$\mathcal{C}$](2,3){C}
+\tkzDefShiftPoint[A](0:4){B}
